@@ -11,7 +11,7 @@ body {
 #body-header {
     height: 65vh;
     opacity: 0.8;
-    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-image: url(./assets/mac.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -333,7 +333,7 @@ section:nth-child(2n + 1) {
 }
 
 .portfolio-image-container:hover .portfolio-details {
-    background-color: #80808078;
+    background-color: #36353578;
     color: white;
 }
 
