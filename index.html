@@ -1,429 +1,510 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>My Resume</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header id="body-header">
-        <nav>
+      <nav>
+        <ul class="horizontal-list text-center nav-menu">
+          <li>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <a href="#about"> About </a>
+          </li>
+          <li>
+            <a href="#skills"> Skills </a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-            <ul class="horizontal-list text-center nav-menu">
-                <li>
-                    <a href="#"> Home </a>
-                </li>
-                <li>
-                    <a href="#about"> About </a>
-                </li>
-                <li>
-                    <a href="#skills"> Skills </a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-
-        </nav>
-
-        <div id="name-social-container">
-            <div class="text-center">
-                <h1 id="my-name">Ajeet Singh</h1>
-            </div>
-            <div>
-                <ul class="horizontal-list text-center social-icons">
-                    <li>
-                        <a href="https://www.linkedin.com/in/ajeet-singh-6372631a1">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://stackoverflow.com/users/19531243/ajeet-singh">
-                            <i class="fab fa-stack-overflow"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://myaccount.google.com/profile">
-                            <i class="fab fa-google-plus-g"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/profile.php?id=100010692183638">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.quora.com/profile/Ajeet-Singh-1342">
-                            <i class="fab fa-quora"></i>
-                        </a>
-                    </li>
-                </ul>
-
-            </div>
-
+      <div id="name-social-container">
+        <div class="text-center">
+          <h1 id="my-name">Ajeet Singh</h1>
         </div>
-
+        <div>
+          <ul class="horizontal-list text-center social-icons">
+            <li>
+              <a href="https://www.linkedin.com/in/ajeet-singh-6372631a1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/users/19531243/ajeet-singh">
+                <i class="fab fa-stack-overflow"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://myaccount.google.com/profile">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100010692183638">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.quora.com/profile/Ajeet-Singh-1342">
+                <i class="fab fa-quora"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
+      <section id="about">
+        <div id="my-image">
+          <img src="./assets/myimg.jpg" />
+        </div>
 
-        <section id="about">
-            <div id="my-image">
-                <img src="./assets/myimg.jpg">
+        <div id="about-para">
+          <p>
+            An enthusiastic learner with highly motivated and
+            <span class="text-highlight">leadership skills</span> pursuing
+            <span class="text-highlight">Bachelors of Technology</span> degree
+            in
+            <span class="text-highlight">Computer Science and Engineering</span
+            >. Eager to learn new technologies and methodologies. Good knowledge
+            of the best practices for
+            <span class="text-highlight">Web Design</span>, user experience and
+            speed. Interested in
+            <span class="text-highlight">Competitive Programming</span> and
+            <span class="text-highlight">Software Development</span>.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-chalkboard-teacher"></i>
+          </span>
+          <span> SKILLS </span>
+        </h1>
+
+        <div id="skills-container" class="skills-display">
+          <div class="skill-progress">
+            <div class="fifty-percent mb-blue" data-bar-width="90">
+              <div class="skill-name">
+                <span> Java </span>
+              </div>
             </div>
-
-            <div id="about-para">
-
-                <p>
-                    I have completed <span class="text-highlight">Intermediate</span> from SPIC Kushinagar with 75% marks in 2018. Now a days, I'm purshing <span class="text-highlight">B.Tech</span> in <span class="text-highlight">Computer Science and Engineering</span> form Greater Noida. I'm final year student. I want to be a good <span class="text-highlight">Web Developer</span>. I also know about <span class="text-highlight">Android App Development</span>. I'm also interested in <span class="text-highlight">Machine Learning</span> and <span class="text-highlight">AI</span>. I have done an <span class="text-highlight">intership</span> of Machine Learning and AI.
-                </p>
-
+          </div>
+          <div class="skill-progress">
+            <div class="fifty-percent mb-blue" data-bar-width="85">
+              <div class="skill-name">
+                <span> DSA </span>
+              </div>
             </div>
-
-        </section>
-
-
-
-        <section id="skills">
-            <h1 class="section-heading mb75px ">
-                <span>
-                    <i class="fas fa-chalkboard-teacher"></i>
-                </span>
-                <span> SKILLS </span>
-            </h1>
-
-            <div id="skills-container" class="skills-display">
-
-                <div class="skill-progress">
-                    <div class="fifty-percent mb-blue" data-bar-width="85">
-                        <div class="skill-name">
-                            <span> Java </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="eighty-five-percent mb-orange" data-bar-width="90">
-                        <div class="skill-name">
-                            <span> HTML </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="eighty-percent mb-light-purple" data-bar-width="95">
-                        <div class="skill-name">
-                            <span> CSS </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="fifty-percent mb-teal" data-bar-width="75">
-                        <div class="skill-name">
-                            <span> Javascript </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="fifty-percent mb-blue" data-bar-width="50">
-                        <div class="skill-name">
-                            <span> NodeJs </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="eighty-percent mb-light-purple" data-bar-width="40">
-                        <div class="skill-name">
-                            <span> C++ </span>
-                        </div>
-                    </div>
-                </div>
-
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-orange" data-bar-width="95">
+              <div class="skill-name">
+                <span> HTML </span>
+              </div>
             </div>
-
-        </section>
-
-        <section id="experience">
-
-            <h1 class="section-heading mb75px">
-                <span>
-                    <i class="fas fa-briefcase"></i>
-                </span>
-                <span> Work Experience </span>
-            </h1>
-
-            <div class="timeline">
-
-                <div class="timeline-box ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> Teaching Assistant </h3>
-                        <h4 class="experience-company-name"> Coding Ninja </h4>
-                        <h5 class="experience-duration m0"> May 2022 - July 2022 </h5>
-
-                        <p class="experience-description text-align-justify"> I used to clear student's doubts of Data Structure and Algorithm. My duties include creating lesson plans, documenting progress, and overseeing lesson preparations. Also known as teacher's aides, these professionals reinforce lessons by tutoring individual students or small groups. </p>
-                    </div>
-                </div>
-                
-                <div class="timeline-box right ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> Web Developer </h3>
-                        <h4 class="experience-company-name"> Coding Ninja </h4>
-                        <h5 class="experience-duration m0"> May 2022 - Jan 2023 </h5>
-                        <p class="experience-description text-align-justify"> Web Developers design and update websites and online applications using various programming languages and design tools. A regular example resume for this job mentions responsibilities such as creating webpage layouts, writing code, editing website content, and making adjustments based on client feedback. </p>
-                    </div>
-                </div>
-
-                <div class="timeline-box left ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="./assets/iilm.png">
-                        </div>
-                        <h3 class="experience-designation m0 m-blue"> Internship </h3>
-                        <h4 class="experience-company-name"> IILMCET </h4>
-                        <h5 class="experience-duration m0">  May 2020 - June 2020 </h5>
-
-                        <p class="experience-description text-align-justify"> Budding Data Scientist with hand-on knowledge of Developing Machine Learning models. Have the ability to understand the business, solve problems and describe solutions by Storytelling. Skilled in Python, Machine Learning, Deep Learning and Statistics.</p>
-                    </div>
-                </div>
-
-                <div id="timeline-divider">
-                    <div class="timeline-traveller">
-                        <div>
-                            <i class="fas fa-plane"></i>
-                        </div>
-                    </div>
-                </div>
-
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent mb-light-purple" data-bar-width="90">
+              <div class="skill-name">
+                <span> CSS </span>
+              </div>
             </div>
-
-        </section>
-
-        <section id="education">
-
-            <h1 class="section-heading mb75px">
-                <span>
-                    <i class="fas fa-graduation-cap"></i>
-                </span>
-                <span> Education </span>
-            </h1>
-
-            <div class="timeline">
-
-                <div class="timeline-box left ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="./assets/iilm.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> B.Tech (CSE) </h3>
-                        <h4 class="experience-company-name "> IILMCET Greater Noida</h4>
-                        <h5 class="experience-duration m0">  2019 - 2023 </h5>
-
-                        <p class="experience-description text-align-justify"> I'm purshing B.Tech in Computer Science and Engineering form IILM College of Engineering and Technology Greater Noida, UP. I'm final year student. I learned a lot here and and a lot of fun.</p>
-                    </div>
-                </div>
-                
-                <div class="timeline-box right ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="./assets/sps.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> Intermediate </h3>
-                        <h4 class="experience-company-name "> SPIC Kushinagar </h4>
-                        <h5 class="experience-duration m0"> 2016 - 2018 </h5>
-                        <p class="experience-description text-align-justify"> I have done my Intermediate from Sant Pushpa Intermediate College Kushinagar, UP with 75% marks. I learned a lot here and and a lot of fun. I'm missing those days.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-box left ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="./assets/sps.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> High School </h3>
-                        <h4 class="experience-company-name "> SPIC Kushinagar </h4>
-                        <h5 class="experience-duration m0"> 2015 - 2016 </h5>
-
-                        <p class="experience-description text-align-justify"> I have done my High School from Sant Pushpa Intermediate College Kushinagar, UP with 84.46% marks. I learned a lot here and and a lot of fun. I'm missing those days. </p>
-                    </div>
-                </div>
-                
-                <div id="timeline-divider">
-                    <div class="timeline-traveller">
-                        <div>
-                            <i class="fas fa-car-side"></i>
-                        </div>
-                    </div>
-                </div>
-
+          </div>
+          <div class="skill-progress">
+            <div class="fifty-percent mb-teal" data-bar-width="75">
+              <div class="skill-name">
+                <span> Javascript </span>
+              </div>
             </div>
-
-        </section>
-
-        <section id="portfolio">
-            <h1 class="section-heading mb75px">
-                <span>
-                    <i class="fas fa-th-list"></i>
-                </span>
-                <span> Portfolio </span>
-            </h1>
-
-            <div id="portfolio-container">
-
-                <div class="portfolio-image-container">
-                    <img src="./assets/alarm.jpg">
-                    <a href="https://github.com/AJEETSINGH8139/Alarm-Clock.git" target="_blank">
-                    <div class="portfolio-details">
-                        <p>
-                            Alarm Clock (Webpage)
-                        </p>
-                    </div></a>
-
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/imdb.png">
-                    <a href="https://github.com/AJEETSINGH8139/IMDB_clone_app.git" target="_blank">
-                    <div class="portfolio-details">
-                        <p>
-                            IMDB Clone App (Webpage)
-                        </p>
-                    </div></a>
-
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/musicplay.jpg">
-                    <a href="https://github.com/AJEETSINGH8139/Music_Player.git">
-                    <div class="portfolio-details">
-                        <p>
-                            Music Player (Webpage)
-                        </p>
-                    </div></a>
-
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/pong.webp">
-                    <a href="https://github.com/AJEETSINGH8139/Ping_Pong_Game.git">
-                    <div class="portfolio-details">
-                        <p>
-                            Ping Pong Game (Webpage)
-                        </p>
-                    </div></a>
-
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/resume.png">
-                    <a href="https://github.com/AJEETSINGH8139/My_Resume.git">
-                    <div class="portfolio-details">
-                        <p>
-                            My Resume (Webpage)
-                        </p>
-                    </div></a>
-
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/readme.png">
-                    <a href="https://github.com/AJEETSINGH8139/AJEETSINGH8139.git">
-                    <div class="portfolio-details">
-                        <p>
-                            Readme (Repositorie)
-                        </p>
-                    </div></a>
-
-                </div>
-
+          </div>
+          <div class="skill-progress">
+            <div class="fifty-percent mb-blue" data-bar-width="50">
+              <div class="skill-name">
+                <span> NodeJs </span>
+              </div>
             </div>
-        </section>
-
-        <section id="contact">
-            <h1 class="section-heading mb50px">
-                <span>
-                    <i class="far fa-address-card"></i>
-                </span>
-                <span> Contact </span>
-            </h1>
-            <div id="contact-container">
-
-                <div id="contact-form-container">
-                    <form id="contact-form">
-                        <input id="input-name" name="name" type="text" placeholder="Your Name">
-                        <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
-                        <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
-                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
-                    </form>
-                </div>
-                <div id="my-details-container">
-
-                    <h3> Get In touch </h3>
-                    <p> Let's get this conversation started. Tell us a bit about yourself, and we'll get in touch as soon as we can.</p>
-
-                    <h3> My Address </h3>
-                    <div class="my-details-info-container">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Kushinagar, India</span>
-                    </div>
-                    <div class="my-details-info-container">
-                        <i class="fas fa-mobile-alt"></i>
-                        <span>6391073093</span>
-                    </div>
-                    <div class="my-details-info-container">
-                        <i class="far fa-envelope"></i>
-                        <span>ajeetsingh8139@gmail.com</span>
-                    </div>
-                </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent mb-light-purple" data-bar-width="85">
+              <div class="skill-name">
+                <span> DBMS </span>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="text-center social-icons">
+      <section id="experience">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-briefcase"></i>
+          </span>
+          <span> Work Experience </span>
+        </h1>
 
-                <ul class="horizontal-list">
+        <div class="timeline">
+          <div class="timeline-box">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png"
+                />
+              </div>
+              <h3 class="experience-designation m0 m-blue">
+                Teaching Assistant
+              </h3>
+              <h4 class="experience-company-name">Coding Ninja</h4>
+              <h5 class="experience-duration m0">
+                September 2022 - January 2023
+              </h5>
 
-                    <li>
-                        <a href="https://www.linkedin.com/in/ajeet-singh-6372631a1" target="_blank">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://stackoverflow.com/users/19531243/ajeet-singh" target="_blank">
-                            <i class="fab fa-stack-overflow"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://myaccount.google.com/profile" target="_blank">
-                            <i class="fab fa-google-plus-g"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.facebook.com/profile.php?id=100010692183638" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.quora.com/profile/Ajeet-Singh-1342" target="_blank">
-                            <i class="fab fa-quora"></i>
-                        </a>
-                    </li>
-                </ul>
+              <p class="experience-description text-align-justify">
+                I used to clear student's doubts of Data Structure and
+                Algorithm. My duties include creating lesson plans, documenting
+                progress, and overseeing lesson preparations. Also known as
+                teacher's aides, these professionals reinforce lessons by
+                tutoring individual students or small groups.
+              </p>
             </div>
-        </section>
+          </div>
 
+          <div class="timeline-box right">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png"
+                />
+              </div>
+              <h3 class="experience-designation m0 m-blue">Web Developer</h3>
+              <h4 class="experience-company-name">Coding Ninja</h4>
+              <h5 class="experience-duration m0">May 2022 - January 2023</h5>
+              <p class="experience-description text-align-justify">
+                Web Developers design and update websites and online
+                applications using various programming languages and design
+                tools. A regular example resume for this job mentions
+                responsibilities such as creating webpage layouts, writing code,
+                editing website content, and making adjustments based on client
+                feedback.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-box left">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img src="./assets/iilm.png" />
+              </div>
+              <h3 class="experience-designation m0 m-blue">Internship</h3>
+              <h4 class="experience-company-name">IILMCET</h4>
+              <h5 class="experience-duration m0">May 2020 - June 2020</h5>
+
+              <p class="experience-description text-align-justify">
+                Budding Data Scientist with hand-on knowledge of Developing
+                Machine Learning models. Have the ability to understand the
+                business, solve problems and describe solutions by Storytelling.
+                Skilled in Python, Machine Learning, Deep Learning and
+                Statistics.
+              </p>
+            </div>
+          </div>
+
+          <div id="timeline-divider">
+            <div class="timeline-traveller">
+              <div>
+                <i class="fas fa-plane"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-graduation-cap"></i>
+          </span>
+          <span> Education </span>
+        </h1>
+
+        <div class="timeline">
+          <div class="timeline-box left">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img src="./assets/iilm.png" />
+              </div>
+              <h3 class="experience-designation m0 m-blue">B.Tech (CSE)</h3>
+              <h4 class="experience-company-name">IILMCET Greater Noida</h4>
+              <h5 class="experience-duration m0">2019 - 2023</h5>
+
+              <p class="experience-description text-align-justify">
+                I'm purshing B.Tech in Computer Science and Engineering form
+                IILM College of Engineering and Technology Greater Noida, UP.
+                I'm final year student. I learned a lot here and and a lot of
+                fun.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-box right">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img src="./assets/sps.png" />
+              </div>
+              <h3 class="experience-designation m0 m-blue">Intermediate</h3>
+              <h4 class="experience-company-name">SPIC Kushinagar</h4>
+              <h5 class="experience-duration m0">2016 - 2018</h5>
+              <p class="experience-description text-align-justify">
+                I have done my Intermediate from Sant Pushpa Intermediate
+                College Kushinagar, UP with 75% marks. I learned a lot here and
+                and a lot of fun. I'm missing those days.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-box left">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img src="./assets/sps.png" />
+              </div>
+              <h3 class="experience-designation m0 m-blue">High School</h3>
+              <h4 class="experience-company-name">SPIC Kushinagar</h4>
+              <h5 class="experience-duration m0">2015 - 2016</h5>
+
+              <p class="experience-description text-align-justify">
+                I have done my High School from Sant Pushpa Intermediate College
+                Kushinagar, UP with 84.46% marks. I learned a lot here and and a
+                lot of fun. I'm missing those days.
+              </p>
+            </div>
+          </div>
+
+          <div id="timeline-divider">
+            <div class="timeline-traveller">
+              <div>
+                <i class="fas fa-car-side"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span> Portfolio </span>
+        </h1>
+
+        <div id="portfolio-container">
+          <div class="portfolio-image-container">
+            <img src="./assets/alarm.jpg" />
+            <a
+              href="https://github.com/AJEETSINGH8139/Alarm-Clock.git"
+              target="_blank"
+            >
+              <div class="portfolio-details">
+                <p>Alarm Clock (Webpage)</p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <img src="./assets/imdb.png" />
+            <a
+              href="https://github.com/AJEETSINGH8139/IMDB_clone_app.git"
+              target="_blank"
+            >
+              <div class="portfolio-details">
+                <p>IMDB Clone App (Webpage)</p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <img src="./assets/readme.png" />
+            <a href="https://github.com/AJEETSINGH8139/Ionic_React.git">
+              <div class="portfolio-details">
+                <p>Ionic React (Website)</p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <img src="./assets/pong.webp" />
+            <a href="https://github.com/AJEETSINGH8139/Ping_Pong_Game.git">
+              <div class="portfolio-details">
+                <p>Ping Pong Game (Webpage)</p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <img src="./assets/resume.png" />
+            <a href="https://github.com/AJEETSINGH8139/habit_tracker.git">
+              <div class="portfolio-details">
+                <p>Habit Tracker (Webpage)</p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <img src="./assets/music.jpg" />
+            <a href="https://github.com/AJEETSINGH8139/Music_Player.git">
+              <div class="portfolio-details">
+                <p>Music Player (Webpage)</p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <img src="./assets/quiz.jpg" />
+            <a href="https://github.com/AJEETSINGH8139/Quiz-Application-.git">
+              <div class="portfolio-details">
+                <p>Quiz Application (Java)</p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <img src="./assets/imagefind.jpg" />
+            <a href="https://github.com/AJEETSINGH8139/find-images-app.git">
+              <div class="portfolio-details">
+                <p>Image Finder (Website)</p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <img src="./assets/signin.jpg" />
+            <a href="https://ajeetsingh8139.github.io/SignIn_SignUp_form/">
+              <div class="portfolio-details">
+                <p>SignIn SignUp Page (Webpage)</p>
+              </div></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1 class="section-heading mb50px">
+          <span>
+            <i class="far fa-address-card"></i>
+          </span>
+          <span> Contact </span>
+        </h1>
+        <div id="contact-container">
+          <div id="contact-form-container">
+            <form id="contact-form">
+              <input
+                id="input-name"
+                name="name"
+                type="text"
+                placeholder="Your Name"
+              />
+              <input
+                id="input-email"
+                name="input-email"
+                type="text"
+                required
+                placeholder="Your Email"
+              />
+              <textarea
+                id="input-message"
+                name="input-message"
+                rows="2"
+                cols="40"
+                placeholder="Message"
+              ></textarea>
+              <button class="sub-btn" type="submit">SEND MESSAGE</button>
+            </form>
+          </div>
+          <div id="my-details-container">
+            <h3>Get In touch</h3>
+            <p>
+              Let's get this conversation started. Tell us a bit about yourself,
+              and we'll get in touch as soon as we can.
+            </p>
+
+            <h3>My Address</h3>
+            <div class="my-details-info-container">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Kushinagar, India</span>
+            </div>
+            <div class="my-details-info-container">
+              <i class="fas fa-mobile-alt"></i>
+              <span>6391073093</span>
+            </div>
+            <div class="my-details-info-container">
+              <i class="far fa-envelope"></i>
+              <span>ajeetsingh8139@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center social-icons">
+          <ul class="horizontal-list">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ajeet-singh-6372631a1"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://stackoverflow.com/users/19531243/ajeet-singh"
+                target="_blank"
+              >
+                <i class="fab fa-stack-overflow"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://myaccount.google.com/profile" target="_blank">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100010692183638"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.quora.com/profile/Ajeet-Singh-1342"
+                target="_blank"
+              >
+                <i class="fab fa-quora"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
