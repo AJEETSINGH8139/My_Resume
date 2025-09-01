@@ -160,8 +160,15 @@ section:nth-child(2n + 1) {
 }
 
 .skill-progress > div {
+  height: 100%;
   border-radius: 20px 0px 0px 20px;
   box-shadow: 1px 1px 5px 2px #989882;
+}
+
+.skill-name {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .skill-name span {
@@ -169,6 +176,7 @@ section:nth-child(2n + 1) {
   font-size: 1rem;
   margin-left: 10px;
   vertical-align: middle;
+  white-space: nowrap;
 }
 
 /* Work Experience */
@@ -222,6 +230,7 @@ section:nth-child(2n + 1) {
 
 .timeline-logo > img {
   width: 100%;
+  border-radius: 8px;
 }
 
 #timeline-divider {
@@ -307,6 +316,7 @@ section:nth-child(2n + 1) {
   top: 0;
   left: 0;
   height: 100%;
+  width: 100%;
   color: transparent;
   text-align: center;
   padding: 10px;
@@ -477,6 +487,16 @@ button:focus {
 
 /*Percentage Classes */
 
+.ninety-five-percent {
+  height: inherit;
+  width: 95%;
+}
+
+.ninety-percent {
+  height: inherit;
+  width: 90%;
+}
+
 .eighty-five-percent {
   height: inherit;
   width: 85%;
@@ -485,6 +505,16 @@ button:focus {
 .eighty-percent {
   height: inherit;
   width: 80%;
+}
+
+.seventy-five-percent {
+  height: inherit;
+  width: 75%;
+}
+
+.sixty-percent {
+  height: inherit;
+  width: 60%;
 }
 
 .fifty-percent {
